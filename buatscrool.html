@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body {
+            background-color: red;
+        }
+        .container {
+            position: relative;
+            padding: 100px 150px;
+        }
+        .container h2 {
+            font-size: 4em;
+            margin-bottom: 40px;
+            color: white;
+            line-height: 1.1em;
+            font-weight: bold;
+        }
+        .container p {
+            font-size: 1.1em;
+            color: white;
+        }
+        .scrollTop {
+            position: fixed;
+            bottom: 800px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-size: 40px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(pngegg\ \(4\).png);
+            cursor: pointer;
+            z-index: 100000;
+            visibility: hidden; 
+             opacity: 0;
+             transition: 0.5s;
+        } 
+        .scrollTop.active {
+            bottom: 40px;
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrollTop" onclick="scrollToTop()"></div>
+    <div class="container">
+        <h2>Animasi Scroll top button using Vanilla Javascript</h1>
+            <p>Lorem, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi laudantium ut ab necessitatibus velit dicta nemo, voluptas repellat facere, aliquid magni exercitationem illum dolorem omnis at voluptatem rem mollitia temporibus pariatur non. Molestias ab at adipisci commodi sint placeat, sit iusto harum delectus ea perspiciatis et dolorem aspernatur ipsa eius dicta repudiandae facilis incidunt. Sint excepturi fuga unde omnis eaque, recusandae earum quia distinctio. Tempore iusto tenetur repellendus cupiditate exercitationem iste natus soluta perspiciatis itaque nobis dolores pariatur ipsam eius corrupti, veniam assumenda illum facilis quis minima nemo saepe non esse! Qui dicta quasi aliquid magni, debitis quas at quidem iste reiciendis? Tenetur debitis praesentium provident ipsa voluptates assumenda perspiciatis! Necessitatibus velit aliquam culpa hic placeat alias expedita eius sint non architecto quidem explicabo ratione repudiandae sequi nisi eveniet iste, animi voluptatem tempora sed. Officia consequatur corrupti consequuntur, facilis aut consectetur at! Nam necessitatibus, voluptatum unde distinctio repellat quibusdam adipisci ut quod iusto quasi accusantium veritatis incidunt, illo maiores? Corporis nobis perferendis consequatur accusantium quia nesciunt, placeat ad? Quae excepturi reiciendis aliquid vitae nihil totam similique perspiciatis, consequuntur adipisci tempora maiores omnis sit blanditiis vero doloribus? Unde iusto officia vitae, amet reprehenderit corporis vel assumenda sint, corrupti, tenetur culpa eum. Ipsam non earum possimus, magni consectetur ab! Ab amet fugit cum quis delectus nulla necessitatibus, vero ex sapiente! Doloribus ipsum quo sit corporis voluptatem esse, voluptatibus aspernatur commodi quod asperiores nisi ipsam error voluptatum corrupti et tenetur, sed accusantium consectetur iusto deleniti nihil vero. Saepe optio impedit laboriosam, quasi pariatur quo voluptatibus non exercitationem doloremque! Dolorem quos modi dolore temporibus quidem quasi at aut, fugit quibusdam aliquam alias recusandae. Cum velit, minus exercitationem cumque quam nemo id assumenda sapiente voluptatem fugiat voluptatum temporibus eligendi, sed dicta expedita architecto voluptas vel rem doloribus error dolore modi porro aliquid molestias? Fugiat, repudiandae. ipsum dolor sit amet consectetur adipisicing elit. Labore non repudiandae magni quisquam aperiam? Obcaecati voluptate deserunt reprehenderit, dignissimos sed alias nostrum quam unde molestias numquam totam itaque inventore amet nesciunt consequuntur eius reiciendis. Consequatur obcaecati optio suscipit eveniet praesentium ratione atque nemo temporibus quis quibusdam porro et dolorum minima, tempore veniam eum expedita id culpa laborum ipsam! Sint sit temporibus laboriosam est quis! Dignissimos quas illum corporis delectus voluptas sunt nemo quia qui eius quibusdam, eligendi ipsam hic explicabo facere deserunt reiciendis in fuga aliquam quos animi voluptatem illo perspiciatis! Deleniti necessitatibus veniam beatae eveniet ut tempore nulla assumenda quisquam doloremque non inventore magnam harum tenetur autem aperiam, debitis molestiae ipsam nesciunt reprehenderit quis! Quae, dolor. Vero sequi sapiente modi. Repellat nobis modi sit sint possimus, vitae ad officiis inventore! Numquam, voluptate suscipit voluptatum quisquam sapiente nobis ut nemo, nulla, praesentium enim reprehenderit? Nisi, nesciunt unde in quo culpa aut sed ullam adipisci assumenda eaque repellat laudantium quam magnam quod corrupti libero consequatur officia, saepe aliquid. Fugiat vero explicabo perspiciatis molestias, aspernatur natus impedit harum magni quasi soluta ducimus ea culpa quae deserunt doloremque quos ipsum officiis deleniti. Iusto delectus adipisci consectetur illum autem sed tempore ab incidunt quis velit illo, nobis unde culpa magni rerum repudiandae aliquam dolor expedita eius? Ullam reprehenderit quis blanditiis similique, maxime tenetur consequatur possimus voluptates placeat doloremque facilis minus, numquam corrupti dignissimos optio? Inventore consequatur soluta aliquam aperiam atque autem voluptatem ipsum. At laborum ipsum mollitia, non aliquid assumenda consectetur, nesciunt, porro voluptates eveniet cum? Sit qui, eos voluptatem vitae ullam ducimus facere beatae non? Esse nesciunt mollitia error eveniet a. Alias temporibus qui ab sed nostrum quo iste atque minima repellat nihil similique, laborum ratione tempora. Esse voluptatum doloribus quaerat error voluptas doloremque repudiandae obcaecati ipsum, veritatis, molestias nihil corrupti alias odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores voluptas soluta aspernatur ipsum, consequuntur delectus natus hic perferendis obcaecati error aliquam sed ad quod reiciendis quibusdam numquam eos labore vero iste. Illum similique corrupti esse, est enim natus vel pariatur nisi nobis, tenetur placeat ut possimus suscipit et sed. Explicabo obcaecati, placeat, mollitia dignissimos ab veritatis minima corporis fugiat quisquam ducimus tenetur cupiditate illum eaque, dolores optio aliquid consequatur illo! Consequuntur, aliquam qui eligendi id ipsam expedita aut mollitia. Iure, commodi! Nesciunt, asperiores consequatur. Aliquid quaerat temporibus molestias eius vel esse in, illum dicta beatae. Fugiat nemo asperiores error voluptatem repellat nulla aliquam placeat accusantium quasi quam, itaque ipsa sit nostrum incidunt, ratione dolore. Perferendis maiores culpa, error est adipisci perspiciatis! Cum tempora amet delectus consequatur sint repudiandae fuga natus quasi, assumenda molestias ipsam obcaecati eaque laudantium repellendus aspernatur alias quidem quas, at, ad temporibus! Fugiat sit debitis, consequatur molestiae impedit corrupti cumque at a ipsa dolorem est dicta earum itaque ducimus error, nesciunt quibusdam quas aliquid excepturi nostrum corporis placeat! Quisquam deleniti reiciendis magni excepturi blanditiis ea! Animi adipisci similique esse cum molestias ipsum quod, sed consectetur dolor. Labore, ipsa iure libero nostrum magnam quia nemo recusandae sint vitae omnis temporibus rerum eaque illum amet velit, aperiam magni! Voluptas praesentium nemo autem, ipsum, nostrum nobis maiores, dolorem error officia voluptatibus adipisci earum. Quam veritatis, qui ut nulla sunt neque vel excepturi. Iste, odio fugit? Quae commodi nostrum ut dicta, ipsum quidem, veritatis placeat, iure dolorem consequuntur quod tenetur quibusdam doloribus mollitia? Ipsum sed blanditiis sequi cum, quae minus veniam praesentium quis aliquam maxime itaque inventore laboriosam unde autem voluptatibus saepe aperiam fuga iure vero natus, iusto tenetur commodi animi consequatur? Necessitatibus, suscipit omnis, voluptatum, repudiandae obcaecati accusamus deserunt quibusdam cumque voluptas provident iure aliquam aliquid sunt impedit pariatur!</p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            var scroll  = document.querySelector(".scrollTop");
+            scroll.classList.toggle("active", window.scrollY > 400)
+        })
+
+
+        function scrollToTop() {
+            window.scrollTo({
+                top :0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
+</body>
+</html>
