@@ -27,10 +27,11 @@
             text-transform: lowercase;
             border-bottom: 1px solid rgba(211, 151, 151, 0.205);
             text-align: center;
-          }.navbar {
-            border: 3px solid yellow;
+          }a:hover {
+
+            background-color: red;
           }
-         }
+          }
 
 
           /* misalnya 992 di kurang 1 jadi 991.98  */
@@ -163,7 +164,7 @@
             background-repeat: no-repeat;
             background-image: url(scroll.jpg);
             cursor: pointer;
-            z-index: 100000;
+            z-index: 2;
             visibility: hidden; 
              opacity: 0;
              transition: 0.5s;
@@ -289,7 +290,7 @@
       <script>
         window.addEventListener('scroll', function() {
             var scroll  = document.querySelector(".scrollTop");
-            scroll.classList.toggle("active", window.scrollY > 400)
+            scroll.classList.toggle("active", window.scrollY > 200)
         })
 
 
